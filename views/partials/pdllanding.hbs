@@ -1,0 +1,30 @@
+<br><br><br><br><br><br>
+<div class="container-sm" >
+    <div class="card mb-5 shadow p-3">
+        <div class="card-body">
+            <div class="p-5 text-center">
+                <h1 id='welcome_msg' class="mb-3">
+                    <script>
+                        var date = new Date();
+                        var time = date.getHours();
+                        if (time >= 18) {
+                            document.getElementById("welcome_msg").innerHTML = '<strong>Good Evening</strong>';
+                        } else if (time >= 12) {
+                            document.getElementById("welcome_msg").innerHTML = '<strong>Good Afternoon</strong>';
+                        } else if (time >= 0) {
+                            document.getElementById("welcome_msg").innerHTML = '<strong>Good Morning</strong>';
+                        } else {
+                            document.getElementById("welcome_msg").innerHTML = 'Something Went Wrong.';
+                        }
+                    </script> facilitator!
+                </h1>
+                <p class="mb-3">PDLConnect is a web application that allows PEDALS facilitators to sign up for events,
+                    log in their log book hours as well as a platform for their reflective blogs.
+
+                    To use PDLConnect, you need to be a PEDALS facilitator and logged in.<br><br>
+                    If you are not a PEDALS facilitator, feel free to join us!</p>
+                <a class="btn btn-primary" href="" role="button">Login now</a>
+            </div>
+        </div>
+    </div>
+</div>

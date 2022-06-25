@@ -13,6 +13,8 @@
 
 }
 
+
+
 .welcome-msg {
     text-align: center;
     font-family: 'Roboto', 'sans-serif', 300;
@@ -22,11 +24,19 @@
     margin-bottom: 0.5rem;
 }
 
+.card-body {
+    margin: 1.4rem;
+}
+
 .navbar {
     filter: drop-shadow(2px 2px 2px #ffffff);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    shado
+
+}
+
+.blur {
+    background 
 }
 
 .navbar-custom {
@@ -40,3 +50,4 @@ footer {
 p {
     font-size: large;
 }
+
